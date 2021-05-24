@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="all-container">
+      <h3>Aktuális hazai tétek</h3>
+      <div class="bet" id="homeBetsDiv"></div>
+      <h3>Aktuális vendég tétek</h3>
+      <div class="bet" id="guestBetsDiv"></div>
+      <h3>Melyik csapatra</h3>
+      <select id="selectTeam">
+        <option selected="">Válassz</option>
+        <option>Hazai</option>
+        <option>Vendég</option>
+      </select>
+      <h3>Tét:</h3>
+      <input id="bet" type="nuber" />
+      <button id="count">Számolj</button>
+      <h2>A várható nyereményed:</h2>
+      <div class="win" id="calculatedValue"></div>
+    </div>
+  </body>
+</html>
